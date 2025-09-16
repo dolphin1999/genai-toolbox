@@ -1514,8 +1514,8 @@ func TestPrebuiltTools(t *testing.T) {
 			name: "alloydb postgres observability prebuilt tools",
 			in:   alloydbobsvconfig,
 			wantToolset: server.ToolsetConfigs{
-				"alloydb-postgres-cloud-monitoring-tools": tools.ToolsetConfig{
-					Name:      "alloydb-postgres-cloud-monitoring-tools",
+				"alloydb_postgres_cloud_monitoring_tools": tools.ToolsetConfig{
+					Name:      "alloydb_postgres_cloud_monitoring_tools",
 					ToolNames: []string{"get_system_metrics", "get_query_metrics"},
 				},
 			},
@@ -1524,8 +1524,8 @@ func TestPrebuiltTools(t *testing.T) {
 			name: "cloudsql postgres observability prebuilt tools",
 			in:   cloudsqlpgobsvconfig,
 			wantToolset: server.ToolsetConfigs{
-				"cloud-sql-postgres-cloud-monitoring-tools": tools.ToolsetConfig{
-					Name:      "cloud-sql-postgres-cloud-monitoring-tools",
+				"cloud_sql_postgres_cloud_monitoring_tools": tools.ToolsetConfig{
+					Name:      "cloud_sql_postgres_cloud_monitoring_tools",
 					ToolNames: []string{"get_system_metrics", "get_query_metrics"},
 				},
 			},
@@ -1534,8 +1534,8 @@ func TestPrebuiltTools(t *testing.T) {
 			name: "cloudsql mysql observability prebuilt tools",
 			in:   cloudsqlmysqlobsvconfig,
 			wantToolset: server.ToolsetConfigs{
-				"cloud-sql-mysql-cloud-monitoring-tools": tools.ToolsetConfig{
-					Name:      "cloud-sql-mysql-cloud-monitoring-tools",
+				"cloud_sql_mysql_cloud_monitoring_tools": tools.ToolsetConfig{
+					Name:      "cloud_sql_mysql_cloud_monitoring_tools",
 					ToolNames: []string{"get_system_metrics", "get_query_metrics"},
 				},
 			},
@@ -1544,8 +1544,8 @@ func TestPrebuiltTools(t *testing.T) {
 			name: "cloudsql mssql observability prebuilt tools",
 			in:   cloudsqlmssqlobsvconfig,
 			wantToolset: server.ToolsetConfigs{
-				"cloud-sql-mssql-cloud-monitoring-tools": tools.ToolsetConfig{
-					Name:      "cloud-sql-mssql-cloud-monitoring-tools",
+				"cloud_sql_mssql_cloud_monitoring_tools": tools.ToolsetConfig{
+					Name:      "cloud_sql_mssql_cloud_monitoring_tools",
 					ToolNames: []string{"get_system_metrics"},
 				},
 			},
